@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 147, 199, 0.959);
+}
+
+h1{
+    color: rgb(224, 16, 85);
+    font-family: "Bad Script", cursive;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h2 {
+    color: rgb(224, 16, 85);
+    font-family: "Bad Script", cursive;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+ h3 {
+    color: rgb(224, 16, 85);
+    font-family: "Bad Script", cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+h4 {
+    color: rgb(224, 16, 85) ;
+    font-family: 'EB Garamond', 'Lora', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ p, li {
+    color: rgb(224, 16, 85);
+    font-family: 'EB Garamond', 'Lora', serif;
+}
+
+#header {
+    background-color: pink;
+    padding: 0.5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+    color: palevioletred;
+}
+
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid palevioletred;
+}
+
+.text {
+    text-align: justify;
+    box-shadow: 0 4px 12px #e90175da;
+    transform: translateY(-5px);
+    margin-left: 2px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.galery {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.galery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+    gap: 20px;    
+    color: white;     
+}
+
+.activity-cards {
+    background-color: pink;
+    padding: 15px;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    flex: 1 1 calc(33.33% - 20px); 
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.activity-cards:hover {
+    box-shadow: 0 4px 12px #e90175da;
+    transform: translateY(-5px);
+}
+
+@media (max-width: 770px) {
+    .activity-cards {
+        flex: 1 1 100%;
+    }
+}
+
+
+footer {
+    background-color: pink;
+    font-size: 15px;
+}
